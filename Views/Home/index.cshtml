@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dojo Dachi</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="stats">
+                <p>Fullness: @ViewBag.fullness</p>
+                <p>Happiness: @ViewBag.happiness</p>
+                <p>Meals: @ViewBag.meals</p>
+                <p>Energy: @ViewBag.energy</p>
+            </div>
+            <div class="display">
+                <img src="~/images/blackbelt.jpg">
+                <p class="action_log">@ViewBag.message</p>
+            </div>
+            <div class="actions">
+                @{
+                    if(ViewBag.fullness > 100 && ViewBag.happiness > 100) {
+                        <a href="/restart" class="btn btn-default">Restart</a>
+                    } else if (ViewBag.fullness > 0 && ViewBag.happiness > 0) {
+                        <a href="/feed" class="btn btn-default">Feed</a>
+                        <a href="/play" class="btn btn-default">Play</a>
+                        <a href="/work" class="btn btn-default">Work</a>
+                        <a href="/sleep" class="btn btn-default">Sleep</a>
+                    } else {
+                        <a href="/restart" class="btn btn-default">Restart</a>
+                    }
+                }
+            </div>
+        </div>
+    </body>
+</html>

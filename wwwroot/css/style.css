@@ -1,0 +1,33 @@
+.container {
+    background: lightblue;
+    padding: 5px;
+}
+.stats {
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+}
+.stats p {
+    display: inline;
+}
+.display {
+    border: 1px black solid;
+    background: white;
+    width: 500px;
+    margin: auto;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    width: 150px;
+    height: auto;
+    margin: 25px auto;
+}
+.actions {
+    width: 500px;
+    margin: auto;
+}
+.btn {
+    margin: 5px;
+}

@@ -1,0 +1,10 @@
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.deps.json
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.runtimeconfig.json
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.runtimeconfig.dev.json
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.dll
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\bin\Debug\netcoreapp2.0\dojodachi.pdb
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.csproj.CoreCompileInputs.cache
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.AssemblyInfoInputs.cache
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.AssemblyInfo.cs
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.dll
+C:\Users\Pete\Desktop\DojoAssignments\netCore\asp.net_core_1\dojodachi\obj\Debug\netcoreapp2.0\dojodachi.pdb
